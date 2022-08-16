@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 713px;
+    width: auto;
+    background-color: #293462;
+    background: url no-repeat 0 60%;
+}
+
+.container h2 {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 50px;
+    color: #fedb39;
+    font-family: "DynaPuff", cursive;
+}
+
+.container h1 {
+    color: #fedb39;
+    /* text-decoration: underline; */
+    height: 70px;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 50px;
+    font-size: 90px;
+    font-family: "DynaPuff", cursive;
+    /* background: #000; */
+}
+
+
+/* .container h3 {
+    display: inline-block;
+    margin-top: 500px;
+
+   text-align: center;
+    background: blue;   
+    height: 20px;
+} */
+
+.container button {
+    width: 500px;
+    height: 50px;
+    margin-top: 45px;
+    margin-left: 550px;
+    border-radius: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container img {
+    margin-top: 15px;
+    margin-left: 700px;
+    height: 180px;
+    width: 170px;
+}
+
+.btn {
+    flex: 0 1 auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #000;
+    font-weight: 500;
+    font-size: larger;
+    border: 0px solid #fff;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
+    box-shadow: 0 0 7px #eee;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+}
+
+.btn-1 {
+    background-image: linear-gradient( to right, #fedb39 10%, #fda085 41%, #f6d365 100%);
+}
+
+.sec-2 {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 30px;
+    display: flex;
+    border-radius: 40px;
+    flex-direction: row;
+    box-shadow: 0 0 15px rgb(233, 210, 210);
+}
+
+.saw img {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    height: 400px;
+    border-radius: 40px;
+    width: 450px;
+}
+
+.saw {
+    height: auto;
+    border-radius: 50px;
+}
+
+.saw2 h1 {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.saw2 p {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.saw2 button {
+    margin-left: 130px;
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.saw1 img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 400px;
+    border-radius: 40px;
+    width: 450px;
+}
+
+.saw1 {
+    height: auto;
+    border-radius: 50px;
+}
+
+.saw3 h1 {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.saw3 p {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.saw3 button {
+    margin-left: 130px;
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.sec-3 {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 30px;
+    display: flex;
+    border-radius: 40px;
+    flex-direction: row;
+    box-shadow: 0 0 15px rgb(233, 210, 210);
+}
+
+
+/* .mid {
+    display: flex;
+    flex-direction: column;
+} */
+
+.footer img {
+    height: 420px;
+    margin-left: 410px;
+    margin-top: 20px;
+    border-radius: 30px;
+    /* width: 180px; */
+    display: flex;
+    justify-content: center;
+}
+
+.footer h1 {
+    margin-top: 40px;
+    font-size: 60px;
+    text-align: center;
+    color: #d61c4e;
+    font-family: "DynaPuff", cursive;
+}
+
+footer h2 {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #d61c4e;
+    font-size: 25px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1282px) {
+    /* .container.btn.btn-1.sec-2.saw.saw2.saw1.saw3.sec-3.mid.footer */
+    div {
+        /* background-color: #293462; */
+        display: none;
+    }
+    .container {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    * {
+        background-color: #293462;
+    }
+    .mobile {
+        /* display: flex; */
+        justify-content: center;
+        margin-top: 500px;
+        align-items: center;
+        text-align: center;
+        display: inline;
+        color: #fedb39;
+        background-color: #293462;
+        font-family: "Libre Baskerville", serif;
+    }
+    .mobile h2 {
+        margin-top: 200px;
+        font-size: 40px;
+        font-family: 'DynaPuff', cursive;
+    }
+    .mobile i {
+        color: #eee;
+    }
+}
+
+
+/* .reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+    z-index: -1;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+    z-index: -1;
+} */
